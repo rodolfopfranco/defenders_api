@@ -1,4 +1,7 @@
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   application:
     name: defenders
   config:
@@ -56,7 +59,3 @@ server:
       cookie:
         http-only: true
     context-path: /defenders
-
-mvc:
-  pathmatch:
-    matching-strategy: ant-path-matcher
