@@ -57,6 +57,6 @@ server:
         http-only: true
     context-path: /defenders
 
-  mvc:
-    pathmatch:
-      matching-strategy: ant-path-matcher
+mvc:
+  pathmatch:
+    matching-strategy: ant-path-matcher
