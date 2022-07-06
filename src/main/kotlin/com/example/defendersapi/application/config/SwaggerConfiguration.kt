@@ -34,7 +34,7 @@ class SwaggerConfig {
 
     private fun apiInfo(): ApiInfo {
         return ApiInfoBuilder()
-            .title("Api Compras")
+            .title("Defenders API")
             .contact(Contact("Franco", "github.com", "email@email.com"))
             .version("1.0")
             .description("Products management API")
